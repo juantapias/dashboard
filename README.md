@@ -7,7 +7,7 @@ This project is a dashboard designed to provide insights into activities, hotels
 ![Dashboard Preview](https://mir-s3-cdn-cf.behance.net/project_modules/fs/2da6ed221904267.67dc4050b92e4.png)
 
 ## Live Demo
-You can preview the dashboard here: [Live Preview](https://dashboard-git-develop-juan-tapias-projects.vercel.app/)
+You can preview the dashboard here: [Live Preview](https://dashboard-gamma-sable-18.vercel.app/)
 
 ## Repository
 Find the source code on GitHub: [GitHub Repository](https://github.com/juantapias/dashboard)
