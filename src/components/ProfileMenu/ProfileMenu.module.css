@@ -1,0 +1,47 @@
+.profileMenu {
+  align-items: center;
+  background-color: var(--white);
+  border: .0625rem solid var(--gray);
+  border-radius: .25rem;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  display: flex;
+  padding: .5rem;
+
+}
+
+.profileAvatar {
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.profileAvatar img {
+  border-radius: 100%;
+}
+
+.profileData {
+  display: flex;
+  flex-direction: column;
+  margin-left: .25rem;
+}
+
+.profileName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-flex;
+
+}
+
+.profileEmail {
+  display: inline-flex;
+  font-size: .75rem;
+}
+
+/* dark mode */
+
+.dark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+}

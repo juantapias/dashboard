@@ -1,0 +1,35 @@
+.searchInputWrap {
+  align-items: center;
+  background-color: var(--white);
+  border: .0625rem solid var(--gray);
+  border-radius: .25rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  padding: .5rem 1rem;
+}
+
+.icon {
+  color: var(--dark-gray);
+  font-size: 1.25rem;
+}
+
+.searchInput {
+  font-size: .75rem;
+  padding: 0 .25rem;
+  outline: none;
+  color: var(--black);
+}
+
+.searchBtn {
+  background: var(--white);
+  color: var(--black);
+  height: 100%;
+  padding: 0 1rem;
+  transition: all 150ms ease-in-out;
+}
+
+.searchBtn:hover {
+  background-color: red;
+  color: var(--primary);
+  cursor: pointer;
+}

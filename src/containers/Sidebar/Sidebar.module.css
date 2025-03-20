@@ -1,0 +1,105 @@
+.sidebar {
+  display: flex;
+  border-right: 0.0625rem solid var(--gray);
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+.sidebarLogo {
+  padding: 1rem;
+  position: relative;
+  width: 8rem;
+}
+
+.sidebarContent {
+  border-top: 0.0625rem solid var(--gray);
+  height: 100%;
+  padding: 1rem;
+}
+
+.sidebarMenu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+
+}
+
+.sidebarMenuItem {
+  align-items: center;
+  display: flex;
+  border: 0.0625rem solid transparent;
+  font-size: .875rem;
+  justify-content: space-between;
+  padding: .5rem .5rem;
+  width: 100%;
+}
+
+.sidebarMenuItem a {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.sidebarMenuItem a i,
+.sidebarMenuItem i {
+  color: var(--dark-gray);
+}
+
+.active {
+  background-color: var(--white);
+  border: .0625rem solid var(--gray);
+  border-radius: .25rem;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.active a i {
+  color: var(--primary);
+}
+
+.active::before {
+  border: .0625rem solid var(--primary);
+  content: "";
+  border-radius: 5rem;
+  bottom: 0;
+  height: 80%;
+  margin: auto;
+  left: -.5rem;
+  position: absolute;
+  top: 0;
+  width: .125rem;
+}
+
+.sidebarProfile {
+  border-top: .0625rem solid var(--gray);
+  padding: 1rem;
+}
+
+/* dark mode */
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+  border-color: var(--dark);
+}
+
+.dark .sidebarContent {
+  border-color: var(--dark);
+}
+
+.dark .active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+}
+
+.dark .active a i {
+  color: var(--white);
+}
+
+.dark .sidebarProfile {
+  border-color: var(--dark);
+}

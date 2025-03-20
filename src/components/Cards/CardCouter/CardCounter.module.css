@@ -1,0 +1,57 @@
+.cardCounter {
+  align-items: center;
+  background-color: var(--white);
+  border: .0625rem solid var(--gray);
+  border-radius: .25rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon {
+  font-size: 8rem;
+  color: var(--gray);
+  position: absolute;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.counter {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.updateTag {
+  background-color: var(--primary);
+  border-radius: .25rem;
+  color: var(--white);
+  font-size: .625rem;
+  font-weight: 300;
+  margin-left: 1rem;
+  padding: .25rem;
+}
+
+/* dark mode */
+
+.dark {
+  background-color: var(--dark);
+  color: var(--white);
+  border-color: var(--dark);
+}

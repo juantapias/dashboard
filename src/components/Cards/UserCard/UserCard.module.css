@@ -1,0 +1,56 @@
+.userCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.userCardTitle {
+  color: var(--primary);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.userCardDescription {
+  color: var(--black);
+  font-weight: 300;
+}
+
+.userCardAvatars {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.userCardAvatar {
+  height: 64px;
+  position: relative;
+  width: 64px;
+}
+
+.userCardAvatar:first-child {
+  margin-right: -1rem;
+}
+
+.userCardAvatar:last-child {
+  margin-left: -1rem;
+}
+
+.userCardAvatar img {
+  border: 0.25rem solid var(--white);
+  border-radius: 50%;
+}
+
+/* dark mode */
+
+.dark {
+  background-color: var(--dark);
+  color: var(--white);
+  border-color: var(--dark);
+}
+
+.dark .userCardDescription {
+  color: var(--white);
+}
