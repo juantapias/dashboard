@@ -4,7 +4,7 @@
 This project is a dashboard designed to provide insights into activities, hotels, and restaurants. It includes interactive charts, statistics, and a calendar for better data visualization.
 
 ## Preview
-![Dashboard Preview](./dashboard.png)
+![Dashboard Preview]([./dashboard.png](https://mir-s3-cdn-cf.behance.net/project_modules/fs/2da6ed221904267.67dc4050b92e4.png))
 
 ## Live Demo
 You can preview the dashboard here: [Live Preview](https://dashboard-git-develop-juan-tapias-projects.vercel.app/)
